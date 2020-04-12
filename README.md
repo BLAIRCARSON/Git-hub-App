@@ -1,6 +1,20 @@
-# Github
+# GITHUB
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.7.
+## Author
+
+- Kirui Cheruiyot Vincent
+
+## DESCRIPTION
+
+- This is an application that a user can use to search for Github users using their username.They will be able to see the repositories of the individuals, followers, blogss and general details.
+ Dated: Sunday,April,12,2020
+
+- This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.7.
+
+## Technologies used
+- Angular CLI
+- HTML
+- CSS
 
 ## Development server
 
