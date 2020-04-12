@@ -8,6 +8,7 @@ import { LandingComponent } from './landing/landing.component';
 import { FooterComponent } from './footer/footer.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { GithubComponent } from './github/github.component';
+import { HighlightDirective } from './highlight.directive';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { GithubComponent } from './github/github.component';
     LandingComponent,
     FooterComponent,
     NavbarComponent,
-    GithubComponent
+    GithubComponent,
+    HighlightDirective
   ],
   imports: [
     BrowserModule,
