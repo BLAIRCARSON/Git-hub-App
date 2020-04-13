@@ -1,30 +1,21 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { BrowserModule } from "@angular/platform-browser";
+import { NgModule } from "@angular/core";
 
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
-import { LandingComponent } from './landing/landing.component';
+import { AppRoutingModule } from "./app-routing.module";
+import { FormsModule } from "@angular/forms";
+import { AppComponent } from "./app.component";
+import { GithubComponent } from "./github/github.component";
+import { HttpClientModule } from "@angular/common/http";
+import { NavbarComponent } from "./navbar/navbar.component";
+import { HomeComponent } from "./home/home.component";
 import { FooterComponent } from './footer/footer.component';
-import { NavbarComponent } from './navbar/navbar.component';
-import { GithubComponent } from './github/github.component';
+import { LandingComponent } from './landing/landing.component';
 import { HighlightDirective } from './highlight.directive';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    HomeComponent,
-    LandingComponent,
-    FooterComponent,
-    NavbarComponent,
-    GithubComponent,
-    HighlightDirective
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  declarations: [AppComponent, GithubComponent, NavbarComponent, HomeComponent, FooterComponent, LandingComponent, HighlightDirective],
+  imports: [BrowserModule, AppRoutingModule, HttpClientModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
